@@ -28,7 +28,7 @@ const features = [
   {
     icon: Database,
     title: "MIMIC-CXR Trained",
-    description: "Built on Beth Israel Deaconess Medical Center data, optimized for Massachusetts demographics.",
+    description: "Built on Beth Israel Deaconess Medical Center data with comprehensive chest X-ray coverage.",
     color: "primary",
   },
   {

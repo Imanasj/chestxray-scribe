@@ -1,4 +1,4 @@
-import { Database, FileImage, FileText, MapPin, AlertTriangle } from "lucide-react";
+import { Database, FileImage, FileText, AlertTriangle } from "lucide-react";
 
 const stats = [
   { label: "X-Ray Images", value: "370,000+", icon: FileImage },
@@ -76,26 +76,23 @@ const DatasetSection = () => {
               </div>
             </div>
 
-            {/* Scope Limitation */}
+            {/* Professional Use Notice */}
             <div className="p-6 rounded-2xl bg-warning/5 border border-warning/20 shadow-soft">
               <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
                 <AlertTriangle className="h-5 w-5 text-warning" />
-                Important Scope Limitation
+                Professional Use Only
               </h3>
               <div className="space-y-3 text-sm text-muted-foreground">
-                <div className="flex items-start gap-2">
-                  <MapPin className="h-4 w-4 text-warning mt-0.5 flex-shrink-0" />
-                  <p>
-                    This model is trained exclusively on data from Beth Israel Deaconess 
-                    Medical Center in <span className="font-semibold text-foreground">Massachusetts</span>.
-                  </p>
-                </div>
-                <p className="pl-6">
-                  Results are optimized for patient demographics representative of the 
-                  greater Boston area and may not generalize to other populations.
+                <p>
+                  This tool is designed exclusively for use by{" "}
+                  <span className="font-semibold text-foreground">qualified healthcare professionals</span>.
                 </p>
-                <p className="pl-6 font-medium text-warning">
-                  This tool should only be used within the State of Massachusetts.
+                <p>
+                  AI-generated reports should always be reviewed and verified by a 
+                  licensed radiologist before any clinical decisions are made.
+                </p>
+                <p className="font-medium text-warning">
+                  Not a substitute for professional medical judgment.
                 </p>
               </div>
             </div>
