@@ -1,13 +1,13 @@
 import { ArrowRight, Sparkles, Shield, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 gradient-subtle" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse-soft" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/5 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: '1.5s' }} />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/5 rounded-full blur-3xl animate-pulse-soft" style={{
+      animationDelay: '1.5s'
+    }} />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-4xl mx-auto text-center animate-slide-up">
@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
             Automated Report Generation for{" "}
-            <span className="text-gradient">Chest X-Rays</span>
+            <span className="text-gradient text-5xl text-black">Chest X-Rays</span>
           </h1>
 
           {/* Subheadline */}
@@ -75,8 +75,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
