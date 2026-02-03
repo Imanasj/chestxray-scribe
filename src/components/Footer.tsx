@@ -19,7 +19,7 @@ const Footer = () => {
                 Built for healthcare professionals to enhance diagnostic workflows.
               </p>
               <p className="text-xs text-muted-foreground">
-                Trained on MIMIC-CXR database. For use in Massachusetts only.
+                Trained on MIMIC-CXR database. For qualified healthcare professionals only.
               </p>
             </div>
 
