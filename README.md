@@ -1,4 +1,7 @@
-# Welcome to your project
+ Chestxray- Scribe 
+
+An Automated Report Generation for Chest X-Rays
+Leverage advanced AI to generate comprehensive radiological reports from chest X-ray images, saving time and enhancing diagnostic accuracy for healthcare professionals.
 
 ## Project info
 
